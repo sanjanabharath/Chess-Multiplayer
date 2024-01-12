@@ -17,13 +17,18 @@ const Appbar = () => {
             fontWeight: "bold",
             margin: "10px auto auto 10px",
             color: "white",
+            fontFamily: "Open sans",
           }}
         >
           Chess Multiplayer
         </Typography>
         <Button
           variant="contained"
-          style={{ margin: "auto 8px", backgroundColor: "#a200ff" }}
+          style={{
+            margin: "auto 8px",
+            backgroundColor: "#a200ff",
+            fontFamily: "Open sans",
+          }}
         >
           Signup
         </Button>
@@ -33,6 +38,7 @@ const Appbar = () => {
             margin: "auto 8px",
             color: "#a200ff",
             borderColor: "#a200ff",
+            fontFamily: "Open sans",
           }}
         >
           Signin

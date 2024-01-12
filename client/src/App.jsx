@@ -6,10 +6,10 @@ import "./App.css";
 function App() {
   return (
     <div
+      className="main"
       style={{
         backgroundColor: "#151514",
         height: "100vh",
-        fontFamily: "'Poppins', sans-serif",
       }}
     >
       <BrowserRouter>
