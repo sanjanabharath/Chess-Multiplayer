@@ -85,7 +85,7 @@ const Signup = () => {
                 flexDirection: "column",
               }}
             >
-              <div style={{ color: "white" }}>or you can login with</div>
+              <div style={{ color: "white" }}>or you can signup with</div>
               <div>
                 <button
                   style={{

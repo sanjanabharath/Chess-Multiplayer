@@ -39,6 +39,17 @@ const Landing = () => {
             >
               Play For Free
             </Button>
+            <Button
+              variant="contained"
+              style={{
+                margin: "18px auto",
+                backgroundColor: "#a200ff",
+                fontFamily: "Open sans",
+                borderRadius: "10px",
+              }}
+            >
+              Create Room
+            </Button>
           </div>
         </Grid>
         <Grid item xs={12} lg={3}>

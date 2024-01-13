@@ -1,6 +1,8 @@
 import React from "react";
 import { Card, TextField, Button, Typography } from "@mui/material";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
+import google from "../assets/google.svg";
+import facebook from "../assets/facebook.svg";
 
 const theme = createTheme({
   palette: {
@@ -34,7 +36,7 @@ const Signin = () => {
                 fontWeight: "bold",
               }}
             >
-              Welcome back To Chess Multiplayer.
+              Welcome Back To Chess Multiplayer.
             </Typography>
           </center>
 
@@ -61,7 +63,7 @@ const Signin = () => {
               focused
             />
           </div>
-          <div style={{ display: "flex", justifyContent: "right" }}>
+          <div>
             <Button
               variant="contained"
               style={{
@@ -70,11 +72,46 @@ const Signin = () => {
                 fontFamily: "Open sans",
                 borderRadius: "10px",
                 color: "#FFFFFF",
+                width: "430px",
               }}
             >
-              Signin
+              Signup
             </Button>
           </div>
+          <center>
+            <div
+              style={{
+                display: "flex",
+                flexDirection: "column",
+              }}
+            >
+              <div style={{ color: "white" }}>or you can login with</div>
+              <div>
+                <button
+                  style={{
+                    backgroundColor: "#a200ff",
+                    border: "0px",
+                    borderRadius: "10px",
+                    padding: "10px",
+                    margin: "20px",
+                  }}
+                >
+                  <img src={google} />
+                </button>
+                <button
+                  style={{
+                    backgroundColor: "#a200ff",
+                    border: "0px",
+                    borderRadius: "10px",
+                    padding: "10px",
+                    margin: "20px",
+                  }}
+                >
+                  <img src={facebook} />
+                </button>
+              </div>
+            </div>
+          </center>
         </Card>
       </div>
     </ThemeProvider>
