@@ -42,7 +42,7 @@ const Landing = () => {
             <Button
               variant="contained"
               style={{
-                margin: "18px auto",
+                margin: "18px 5px",
                 backgroundColor: "#a200ff",
                 fontFamily: "Open sans",
                 borderRadius: "10px",
