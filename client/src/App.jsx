@@ -5,6 +5,7 @@ import Signup from "./components/Signup";
 import Signin from "./components/Signin";
 import CreateRoom from "./components/CreateRoom";
 import Chess from "./components/Chess";
+import Game from "./components/Game";
 import { RecoilRoot } from "recoil";
 import "./App.css";
 
@@ -26,6 +27,7 @@ function App() {
             <Route path="/signup" element={<Signup />} />
             <Route path="/game" element={<CreateRoom />} />
             <Route path="/game/:id" element={<Chess />} />
+            <Route path="/newgame" element={<Game />} />
           </Routes>
         </BrowserRouter>
       </RecoilRoot>
